@@ -281,13 +281,7 @@ body {
 /* 左の店名（例: .logo）サイズを少し控えめに */
 .logo{ font-size:18px; }
 
-/* 右のボタン群（親） */
-.header-nav{
-  display:flex;
-  gap:12px;
-  flex-wrap:wrap;          /* ← 折り返し許可 */
-  justify-content:flex-end;
-}
+
 
 /* 各ボタン */
 .header-nav a{
@@ -308,4 +302,20 @@ body {
 @media (max-width:480px){
   .header-nav a{ flex:1 1 48%; font-size:14px; padding:8px 10px; }
   .header-nav a:nth-child(3){ flex-basis:100%; }
+}
+
+.header-nav { display:flex; flex-wrap:wrap; gap:12px; }
+.header-nav a{
+  flex: 0 0 auto;           /* ← 中身より小さく縮めない */
+  min-width: max-content;   /* ← 文字列の最小幅を死守 */
+  padding: 8px 12px;
+  border-radius:10px;
+  background:#fff;
+  display:inline-flex; align-items:center; justify-content:center;
+}
+
+.header-nav a{
+  white-space: nowrap;       /* 1行にする */
+  word-break: keep-all;      /* CJK 内の任意改行を避ける */
+  overflow-wrap: normal;     /* できるだけ単語途中で折り返さない */
 }
