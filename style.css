@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    background-color: #BCA285; /* Figma‚Ìƒwƒbƒ_[F */
+    background-color: #BCA285; /* Figmaã®ãƒ˜ãƒƒãƒ€ãƒ¼è‰² */
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
@@ -193,7 +193,7 @@ body {
         }
 
 .footer {
-    background-color: #d2b48c; /* —‚¿’…‚¢‚½’ƒF */
+    background-color: #d2b48c; /* è½ã¡ç€ã„ãŸèŒ¶è‰² */
     color: #fff;
     text-align: center;
     padding: 40px 20px;
@@ -223,7 +223,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    /* ƒtƒ@[ƒXƒgƒrƒ…[c•À‚Ñ */
+    /* ãƒ•ã‚¡ãƒ¼ã‚¹ãƒˆãƒ“ãƒ¥ãƒ¼ç¸¦ä¸¦ã³ */
     .fv-top {
         flex-direction: column;
     }
@@ -233,7 +233,7 @@ body {
         width: 100%;
     }
 
-    /* ƒeƒLƒXƒg‚ÌƒTƒCƒY‚ğ­‚µ¬‚³‚­‚·‚é */
+    /* ãƒ†ã‚­ã‚¹ãƒˆã®ã‚µã‚¤ã‚ºã‚’å°‘ã—å°ã•ãã™ã‚‹ */
     .fv-message h3 {
         font-size: 18px;
     }
@@ -242,12 +242,12 @@ body {
         font-size: 14px;
     }
 
-    /* “Á’·ƒuƒƒbƒN‚à‹l‚Ü‚ç‚È‚¢‚æ‚¤‚É */
+    /* ç‰¹é•·ãƒ–ãƒ­ãƒƒã‚¯ã‚‚è©°ã¾ã‚‰ãªã„ã‚ˆã†ã« */
     .feature-block {
         padding: 0 10px;
     }
 
-    /* ƒŒƒrƒ…[c•À‚ÑE’†‰›‘µ‚¦ */
+    /* ãƒ¬ãƒ“ãƒ¥ãƒ¼ç¸¦ä¸¦ã³ãƒ»ä¸­å¤®æƒãˆ */
     .review-box {
         flex-direction: column;
         text-align: center;
@@ -258,15 +258,14 @@ body {
             margin-bottom: 8px;
         }
 
-    /* CTAƒ{ƒ^ƒ“‚àk‚ß‚é */
+    /* CTAãƒœã‚¿ãƒ³ã‚‚ç¸®ã‚ã‚‹ */
     .cta .btn-line {
         font-size: 16px;
         padding: 12px 24px;
     }
 
-    /* ƒtƒbƒ^[•¶šƒTƒCƒY’²® */
+    /* ãƒ•ãƒƒã‚¿ãƒ¼æ–‡å­—ã‚µã‚¤ã‚ºèª¿æ•´ */
     .footer {
         font-size: 12px;
     }
 }
-
